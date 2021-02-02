@@ -8,8 +8,9 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 // import '../cch'
-import 'jquery'
-import $ from 'jquery'
+import "jquery";
+import $ from "jquery";
+window.$ = $;
 $(document).ready(function(){
   $(window).scroll(function(){
     if(this.scrollY > 20) 

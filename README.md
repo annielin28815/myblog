@@ -2,8 +2,6 @@
 
 ![專案畫面預覽圖](https://i.imgur.com/mFdWddO.jpg)
 
-![專案畫面預覽圖](https://i.imgur.com/ZDiKGxM.png =300x450)
-
 ## 2.設計理念
 
 - 現為個人網頁入口網，後續將持續開發為個人網站。
