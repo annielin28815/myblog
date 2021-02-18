@@ -11,14 +11,6 @@ document.addEventListener("turbolinks:load", function(e){
     menuIcon.addEventListener('click', function(){
         menuIcon.classList.toggle("active");
         menuOption.classList.toggle("active");
-      // if(menuOption.classList.contains('hidden')){
-      //   menuIcon.classList.toggle("active");
-      //   menuOption.classList.toggle("active");
-      // } else{
-      //   menuIcon.classList.toggle("hidden");
-      //   menuOption.classList.toggle("hidden");
-      // }
     })
-
 
 });
