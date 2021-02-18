@@ -2,20 +2,23 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
-import "jquery";
-import $ from "jquery";
-window.jQuery = $
-window.$ = $;
-$(document).ready(function(){
-  $(window).scroll(function(){
-    if(this.scrollY > 20) 
-      $(".navbar").addClass("sticky");
-    else
-      $(".navbar").removeClass("sticky");
-  });
 
-  $('.menu-toggler').click(function(){
-    $(this).toggleClass("active");
-    $(".navbar-menu").toggleClass("active");
-  });
+document.addEventListener("turbolinks:load", function(e){
+
+    const menuIcon = document.querySelector('.menu-toggler')
+    const menuOption = document.querySelector('.navbar-menu')
+
+    menuIcon.addEventListener('click', function(){
+        menuIcon.classList.toggle("active");
+        menuOption.classList.toggle("active");
+      // if(menuOption.classList.contains('hidden')){
+      //   menuIcon.classList.toggle("active");
+      //   menuOption.classList.toggle("active");
+      // } else{
+      //   menuIcon.classList.toggle("hidden");
+      //   menuOption.classList.toggle("hidden");
+      // }
+    })
+
+
 });
