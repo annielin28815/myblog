@@ -1,4 +1,4 @@
-## 1.專案預覽：[部署連結](annielin.cc)
+## 1.專案預覽：[部署連結](http://annielin-cc.herokuapp.com/)
 
 ![專案畫面預覽圖](https://i.imgur.com/mFdWddO.jpg)
 
